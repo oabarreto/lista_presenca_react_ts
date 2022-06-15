@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container header {
+    width: 50%;
+    margin: 84px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container header h1 {
+    color: #555;
+}
+
+.container header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 7px;
+    box-shadow: 0 0 8px rgb(81, 227, 79);
+    filter: drop-shadow(0 0.4rem 0.4rem #0000002f);
+}
+
+.container header div {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+}
+
+.status small {
+    align-self: flex-start;
+    margin-left: 1px;
+}
+
+.container header div strong {
+    color: #555;
+}
+
+.container input {
+    width: 50%;
+    padding: 24px;
+    
+    background: #E6E6E6;
+    border-radius: 5px;
+    border: none;
+
+    font-size: 16px;
+}
+
+.container button {
+    width: 50%;
+    padding: 24px;
+    font-weight: 700;
+
+    background: #444;
+    color: #fff;
+
+    border-radius: 5px;
+    border: none;
+    margin: 12px;
+
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.container button:hover {
+    filter: brightness(0.9);
+}
